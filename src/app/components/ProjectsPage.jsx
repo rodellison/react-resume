@@ -20,7 +20,7 @@ class ProjectsPage extends React.Component {
         <div className="groupedText">
           <p>
             <b>Unity3D Projects:</b>
-            My creations using Unity - various AR/VR applications, Unity driven Cinematics, and Game Applications
+            My creations using Unity - various AR/VR applications, Unity driven Cinematics, and Game Applications including Motion Capture
             <div className="buttonHolder"><div className="gitHubButton">
               <a href="https://connect.unity.com/u/583ecb8332b3060028471c2f/column" title="Unity3D app">View on Unity Connect</a>
             </div></div>
