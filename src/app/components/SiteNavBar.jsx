@@ -6,11 +6,11 @@ import resumeDoc from "../../files/Rodney R Ellison.pdf";
 class SiteNavBar extends React.Component {
   constructor(props) {
     super(props);
-    window.addEventListener('resize', this.updateDimensions.bind(this));
-    this.handleClick = this.handleClick.bind(this);
+    window.addEventListener('resize', SiteNavBar.updateDimensions.bind(this));
+    SiteNavBar.handleClick = SiteNavBar.handleClick.bind(this);
   }
 
-  updateDimensions() {
+  static updateDimensions() {
     if (window.innerWidth > 767) {
       const linksEl = document.querySelector('#menu');
       if (linksEl.style.display === 'none') {
@@ -25,7 +25,7 @@ class SiteNavBar extends React.Component {
     }
   }
 
-  handleClick() {
+  static handleClick() {
     console.log('Burger clicked');
     const linksEl = document.querySelector('#menu');
     console.log(linksEl.style.display);
@@ -42,7 +42,7 @@ class SiteNavBar extends React.Component {
       <div>
         <nav id="newnavbar">
           <p>Rod Ellison</p>
-          <label id="show-menu"><img src={navBarImage} alt="show-menu" onClick={this.handleClick}/></label>
+          <label id="show-menu"><img src={navBarImage} alt="show-menu" onClick={SiteNavBar.handleClick}/></label>
           <ul id="menu" >
             {this.props.pages.map(listValue => {
               return (<ListItem key={listValue.id} listItemValue={listValue} fnToCall={this.props.changePage}/>);
