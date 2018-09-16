@@ -12,8 +12,7 @@ class AboutPage extends React.Component {
         </div>
 
         <div className="groupedText">
-          <p><b>Technical Skills</b>
-            I view my key strengths as the following: <br/>
+          <p><b>Technical Skills: </b></p> <br/>
             <div className="groupedText">
               <ul className="skillList">
                 <li>
@@ -43,19 +42,19 @@ class AboutPage extends React.Component {
               </ul>
             </div>
               Specific experience and development highlights can be found on my &#39;Experience&#39; and &#39;Projects&#39; pages.
-          </p>
+
         </div>
 
         <div className="groupedText">
-          <p><b>Personal</b>
+          <p><b>Personal:</b>
             I&#39;m (almost) a Florida native, having moved from the midwest just after High school and completing my BS Computer Science at Florida Atlantic University.
             I love the Ocean and am an avid Kayaker, as well as Scuba Diver - helping lead a local dive club called <a href="http://www.kayuba.org"><b>Kayuba</b></a>.
-            My other interests include 3D modeling/rendering, motorcycling (Harley Deuce), playing guitar, and traveling.
+            My other interests include 3D modeling/rendering, Augmented, Virtual and Mixed reality development, motorcycling, playing guitar, and traveling.
           </p>
         </div>
 
         <div className="groupedText">
-          <p><b>Currently</b>
+          <p><b>Currently:</b>
             I&#39;m very engaged in both Virtual Reality, as well as Voice computing. Using Oculus Rift/Unity3D, I created the first VR demos for American Express to demonstrate use cases in eLearning as well as virtual Architecture (building) walkthroughs.
               I&#39;m proud to be one of the first (1000) Amazon &quot;Alexa&quot; skill developers, having developed <b>&quot;The Music Man&quot;</b> for Amazon Echo customers. &quot;The Music Man&quot; is written in Java, hosted in AWS/Lambda, and leverages a third party &quot;Songkick&quot; API to allow users to query where their favorite musical
               artists are playing next, or the calendar of events coming to a local venue.

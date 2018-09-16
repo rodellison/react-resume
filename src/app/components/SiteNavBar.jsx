@@ -11,13 +11,13 @@ class SiteNavBar extends React.Component {
   }
 
   static updateDimensions() {
-    if (window.innerWidth > 767) {
+    if (window.innerWidth > 824) {
       const linksEl = document.querySelector('#menu');
       if (linksEl.style.display === 'none') {
         linksEl.style.display = 'inline';
       }
     }
-    if (window.innerWidth <= 767) {
+    if (window.innerWidth <= 824) {
       const linksEl = document.querySelector('#menu');
       if (linksEl.style.display === 'inline') {
         linksEl.style.display = 'none';
@@ -74,12 +74,16 @@ class ListItem extends React.Component {
 
   handleClick() {
     console.log('handleChange setState: ');
+    console.log(window.innerWidth);
+      if (window.innerWidth < 825) {
+          SiteNavBar.handleClick();
+      }
     this.props.fnToCall(this.props.listItemValue.name);
   }
 }
 
 ListItem.propTypes = {
-  listItemValue: PropTypes.array,
+  listItemValue: PropTypes.object,
   fnToCall: PropTypes.func
 };
 
