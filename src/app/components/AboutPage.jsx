@@ -7,7 +7,7 @@ class AboutPage extends React.Component {
       <div id="pageContent" className="animated fadeInLeft">
         <h1>About</h1>
         <div className="boxOfText">
-          <p>I&#39;m an IT professional with over 24 years of diverse experience that includes application development, enterprise architecture, strategic planning and portfolio governance, business process design, investment optimization, and third party vendor technical relationship oversight.</p>
+          <p>I&#39;m an IT professional with over 25 years of diverse experience that includes application development, enterprise architecture, strategic planning and portfolio governance, business process design, investment optimization, and third party vendor technical relationship oversight.</p>
           <p>I have an <b>innovation mindset</b> and love to explore and prototype new technologies for business and customer benefit. </p>
         </div>
 
