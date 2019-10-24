@@ -69,7 +69,7 @@ class ListItem extends React.Component {
       );
     }
     return (
-      <li onClick={this.handleClick}><a>{this.props.listItemValue.name}</a></li>);
+      <li onClick={this.handleClick}><a href="/#">{this.props.listItemValue.name}</a></li>);
   }
 
   handleClick() {
