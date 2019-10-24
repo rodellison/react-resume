@@ -27,10 +27,8 @@ class ExperiencePage extends React.Component {
                     <div className="location">Ft. Lauderdale, Florida</div>
                     <div className="time">Apr 2016 - current</div>
                     <br/>
-                    As part of the US Consumer and Travel Technologies team, responsible for evolving several core
-                    Customer Products and Services mainframe and distributed platforms to IaaS/PaaS cloud based
-                    architectures. Additionally responsible for driving the platform&#39;s API exposure and CICD
-                    maturity.
+                    Enterprise Platform team member, responsible for evolving American Express Global Statements and Disclosures mainframe and distributed platforms to IaaS/PaaS cloud based
+                    architectures. Additionally responsible for driving the platform&#39;s API exposure and CICD maturity.
                 </div>
 
                 <div className="exp groupedText">
@@ -39,7 +37,7 @@ class ExperiencePage extends React.Component {
                     <div className="location">Ft. Lauderdale, Florida</div>
                     <div className="time">Nov 2013 - Apr 2016</div>
                     <br/>
-                    Responsible for driving architecture and strategic direction of several key World Service and Global
+                    Provided architecture and strategic direction for several key World Service and Global
                     Credit Administration platforms: Enterprise Content Management/Imaging, Fax, Scan, Operational
                     Performance, MIS, Workforce/ Knowledge and Learning management. I led the creation and refresh of
                     the portfolio&#39;s roadmaps and blueprints which influence and steer approximately $10-20MM annual
@@ -51,7 +49,7 @@ class ExperiencePage extends React.Component {
                     <div className="location">Ft. Lauderdale, Florida</div>
                     <div className="time">Oct 2005 - Nov 2013</div>
                     <br/>
-                    Responsible for architectural leadership of the American Express business facing Imaging, Fax and
+                    Lead architect for the American Express business facing Imaging, Fax and
                     Scan utilities having a global customer base. Provided technical direction and oversight for all
                     projects implemented by the team and the application service hosting providers. Maintained strong
                     business partner relationships to ensure strategic and tactical platform needs and opportunities are
