@@ -7,8 +7,8 @@ class AboutPage extends React.Component {
       <div id="pageContent" className="animated fadeInLeft">
         <h1>About</h1>
         <div className="boxOfText">
-          <p>I&#39;m an IT professional with over 25 years of diverse experience that includes application development, enterprise architecture, strategic planning and portfolio governance, business process design, investment optimization, and third party vendor technical relationship oversight.</p>
-          <p>I have an <b>innovation mindset</b> and love to explore and prototype new technologies for business and customer benefit. </p>
+          <p>I&#39;m an IT professional and Digital Innovator with over 25 years of diverse corporate experience in application development, enterprise architecture, and strategic planning and portfolio governance. I also have a passion in the development of visually exciting applications that bridge technologies such as Mixed reality, and Voice with back-end Cloud API/Database solutions.</p>
+          <p>With a strong <b>innovation mindset</b>, I lead by demonstration - researching cutting edge technologies and establishing proof of concepts that provide business value. </p>
         </div>
 
         <div className="groupedText">

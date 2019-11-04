@@ -1,6 +1,6 @@
 import React from 'react';
 import bgImage from "../../images/OceanBackground.jpg";
-import faceImage from "../../images/rodface2.jpg"
+import faceImage from "../../images/rodface3.jpg"
 
 class SiteHeader extends React.Component {
 
