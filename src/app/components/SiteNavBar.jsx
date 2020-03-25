@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import navBarImage from "../../images/menu.svg";
-import resumeDoc from "../../files/RodEllison-ResumeNov2019.doc";
+import resumeDoc from "../../files/Rodney Ellison 2020.doc";
 
 class SiteNavBar extends React.Component {
   constructor(props) {

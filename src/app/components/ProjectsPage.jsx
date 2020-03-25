@@ -29,7 +29,28 @@ class ProjectsPage extends React.Component {
 
           </div>
 
-        <div className="groupedText">
+          <div className="groupedText">
+              <p>
+                  <b>&quot;The Conch Republic&quot; - Amazon Echo/Alexa skill:</b></p>
+              The Conch Republic is a Java application allowing Amazon Echo customers the ability to verbally
+              query the Official
+              Florida Keys Tourism Calendar of Events to find out happenings in the popular cities of the Florida
+              Keys (Key Largo, Islamorada, Marathon, and Key West).
+              A backend Java (Vert.x) service and API was setup to work with AWS Dynamo DB for fetching and storing event
+              details. Key AWS components used include DynamoDB, Lambda, SNS, API Gateway
+              and Translate. Translate is called for users invoking their Alexa to handle real-time English to
+              Spanish translation. APL (Alexa Presentation Language) allows
+              the skill to provide device specific (Echo Show, Spot, HD TVs, etc.) visual information.
+              <div className="buttonHolder">
+                  <div className="gitHubButton">
+                      <a href="https://github.com/rodellison/conch-republic" title="The Conch Republic">View on
+                          Github</a>
+                  </div>
+              </div>
+
+          </div>
+
+          <div className="groupedText">
           <p>
             <b>Unity3D Projects:</b></p>
             My creations using Unity - various AR/VR applications, Unity driven Cinematics, and Game Applications including Motion Capture
