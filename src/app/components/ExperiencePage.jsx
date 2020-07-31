@@ -21,6 +21,27 @@ class ExperiencePage extends React.Component {
                 <br/>
                 <br/>
 
+                <h2>Certifications</h2>
+                <div className="exp groupedText">
+                    <b>Unity Certified Programmer </b>
+                    <div className="time">July 2020</div>
+                </div>
+
+                <div className="exp groupedText">
+                    <b>AWS Certified Developer Associate </b>
+                    <div className="time">In progress</div>
+                </div>
+
+                <div className="exp groupedText">
+                    <b>American Express and Harvard Certification in Leadership Excellence </b>
+                    <div className="time">Aug 2018</div>
+                </div>
+
+                <div className="exp groupedText">
+                    <b>TOGAF 9 - The Open Group </b>
+                    <div className="time">Apr 2014</div>
+                </div>
+
                 <h2>Career</h2>
                 <div className="exp groupedText">
                     <b><a href="http://www.americanexpress.com">Staff Engineer/Architect - American Express</a></b>
